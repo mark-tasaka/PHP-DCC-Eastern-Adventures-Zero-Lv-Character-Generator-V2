@@ -15,28 +15,28 @@ function getStartingWealth($select)
     {
         $copper += 200;
 
-        return "5 gp, 10 sp & " . $copper . " cp";
+        return "5 gp, 10 sp & " . $copper . " mon [cp]";
     }
     else if($select === 29)
     {
 
-        return "20 sp & " . $copper . " cp";
+        return "20 sp & " . $copper . " mon [cp]";
     }
     else if($select === 75)
     {
         $copper += 27;
 
-        return "4 gp, 14 sp & " . $copper . " cp";
+        return "4 gp, 14 sp & " . $copper . " mon [cp]";
     }
     else if($select === 88)
     {
         $copper += 100;
 
-        return  $copper . " cp";
+        return  $copper . " mon [cp]";
     }
     else
     {
-        return  $copper . " cp";
+        return  $copper . " mon [cp]";
     }
 
 }

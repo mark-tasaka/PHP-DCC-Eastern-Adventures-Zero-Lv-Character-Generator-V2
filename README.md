@@ -3,6 +3,14 @@ Designed with PHP, the Dungeon Crawl Classics Eastern Adventures Zero-Level Char
 
 ----------------
 
+
+
+2022-01-24: Update 1.02
+
+Updates to levelZeroCharacters.php, dcc_zero_characters.css, notes.php, and zeroLvOccupation.php.
+
+
+
 2022-01-23: Update 1.01
 
 Updates to levelZeroCharacters.php, dcc_zero_characters.css and wealth.php.

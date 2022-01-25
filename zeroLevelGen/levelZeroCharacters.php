@@ -50,8 +50,43 @@
         $sexOfCharacter1 = getSex($characterSex);
         $sexOfCharacter2 = getSex($characterSex);
         $sexOfCharacter3 = getSex($characterSex);
+
+        
+        if(isset($_POST["theName"]))
+        {
+            $nameCharacter = $_POST["theName"];
+
+        }
+
+        if($nameCharacter == 1)
+        {
+            $givenName0 = 24;
+            $givenName1 = 24;
+            $givenName2 = 24;
+            $givenName3 = 24;
+            
+            $surname0 = 19;
+            $surname1 = 19;
+            $surname2 = 19;
+            $surname3 = 19;
+
+        }
+        else
+        {
+            $givenName0 = 200;
+            $givenName1 = 200;
+            $givenName2 = 200;
+            $givenName3 = 200;
+            
+            $surname0 = 200;
+            $surname1 = 200;
+            $surname2 = 200;
+            $surname3 = 200;
+
+        }
     
     
+        /*
 
 
         if(isset($_POST["theGivenName"]))
@@ -97,6 +132,7 @@
             $surname2 = $surname;
             $surname3 = $surname;
         }
+        */
 
         $genderName0 = getNameGender($sexOfCharacter0);
         $genderName1 = getNameGender($sexOfCharacter1);

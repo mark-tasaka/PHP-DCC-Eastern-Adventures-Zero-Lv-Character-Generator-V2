@@ -2,40 +2,19 @@
 
 function getNotes($select)
 {
-    if($select === 92)
+    if($select >= 0 && $select <= 10)
     {
-        $pushcart = array("Push Cart containing tomatoes",
-        "Push Cart containing nothing",
-        "Push Cart containing dirt",
-        "Push Cart containing straw",
-        "Push Cart containing rocks",
-        "Push Cart containing YOUR DEAD!!!");
-
-        shuffle($pushcart);
-
-        return $pushcart[0];
+        return "Special Abilities: Shape-shifting, karma";
     }
-    else if($select >= 48 && $select <= 56)
+    else if($select >= 43 && $select <= 52)
     {
-        $farmAnimals = array("Hen", "Sheep", "Goat", "Cow", "Duck", "Goose", "Mule");
-
-        shuffle($farmAnimals);
-
-        return $farmAnimals[0];
-    }
-    else if($select >= 0 && $select <= 10)
-    {
-        return "Special Abilities: Infravision (60'), smell gold and gems.";
-    }
-    else if($select >= 11 && $select <= 20)
-    {
-        return "Special Abilities: Infravision (60'), iron vulnerability, +4 bonus to detect secret doors.";
+        return "Special Abilities: Infravision (60'), sling, sense fresh water, woodland and handling animals skills";
 
     }
-    else if($select >= 21 && $select <= 30)
+    else if($select >= 83 && $select <= 92)
     {
 
-        return "Special Abilities: Infravision (30'), two-weapon fighting, good luck charm.";
+        return "Special Abilities: Flight, mimicry";
     }
     else
     {
